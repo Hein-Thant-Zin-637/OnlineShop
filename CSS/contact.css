@@ -3,6 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     width: 100%;
+    font-size: 20px;
 }
 
 /* header */
@@ -47,11 +48,13 @@ body {
     border-radius: 2px;
 }
 
-.orange-buttom {
+main .orange-buttom {
     background-color: rgb(235, 62, 50);
     color: white;
     border: none;
     padding: 10px;
+    width: 100px;
+    border-radius: 20px;
 }
 .form-control{
     box-shadow: none !important;
@@ -99,3 +102,34 @@ footer {
     margin-bottom: 10px;
 }
 /* main */
+.homelink{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+.link-circle{
+    background-color: #363f4d;
+    border-radius: 50%;
+    width: 50px !important;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.link-circle i{
+    vertical-align: middle;
+    font-size: 1.7rem;
+}
+li span{
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 576px) {
+    .form{
+        width: 100%;
+    }
+}
