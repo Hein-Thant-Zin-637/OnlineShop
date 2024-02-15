@@ -369,6 +369,42 @@ footer {
     border: none;
 }
 
+.date{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+.blog-card {
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+.blogimage{
+    /* transform: scale(1.2);
+    transition: all 0.3s ease-in-out; */
+}
+.blog-card:hover {
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2);
+    .date{
+        background-color: #eb3e32;
+        color: white;
+    }
+    .blogimage{
+        transform: scale(1.0);
+    }
+}
+  
 .accordion-button::after {
     background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
     transform: scale(.7) !important;
