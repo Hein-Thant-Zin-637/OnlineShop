@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Detail</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f1dd83d39c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../CSS/shop_detail.css">
+</head>
+<body>
+    <header>
+        <div
+            class="container-fluid d-flex flex-column flex-md-row justify-content-center align-items-center justify-content-md-between px-3 px-lg-5 p-3 bg">
+            <div class="d-flex flex-row gap-3">
+                <div class="text-hover side-border">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+ 00 233 573 368</span>
+                </div>
+                <div class="text-hover">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>info@gmail.com</span>
+                </div>
+            </div>
+            <div class="d-flex flex-row sider-border gap-3">
+                <div class="side-border text-hover">Login</div>
+                <div class="side-border text-hover"> Wishlist</div>
+                <div class="text-hover"> My Account</div>
+            </div>
+        </div>
+        <div class="d-flex flex-row justify-content-between px-3 px-lg-5 my-2 align-items-center text-de">
+            <div>
+                <img src="../IMAGE/logo.png" alt="" class="logo">
+            </div>
+            <div class="search-input d-none d-lg-flex">
+                <input type="text" class="form-control" placeholder="Search Product...">
+                <button class="orange-buttom" type="submit">Search</button>
+            </div>
+            <div class="d-flex flex-row p-3 gap-3">
+                <div class="position-relative">
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                    <span
+                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">02</span>
+                </div>
+                <span class="fw-bold">$237.00 <i class="fa-solid fa-chevron-down"></i></span>
+                <span class="search-buttom d-lg-none">
+                    <i class="fa-solid fa-magnifying-glass "></i>
+                </span>
+                <button class="navbar-toggler menu-buttom d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+    </header>
+    <div class="sticky-top bg-white">
+        <div class="d-flex flex-row gap-3 border-top border-bottom py-3 px-5 gap-3 menu-list d-none d-lg-flex ">
+            <a href="index.html" class="text-hover" >Home</a>
+            <a href="about_us.html" class="text-hover" >About us</a>
+            <a class="dropdown-toggle text-hover" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Shop</a>
+            <ul class="dropdown-menu list-unstyled">
+                <li><a class="dropdown-item text-hover" href="shop.html" style="color: #eb3e32;">product</a></li>
+                <li><a class="dropdown-item text-hover" href="cart.html">Card</a></li>
+                <li><a class="dropdown-item text-hover" href="check_out.html">Check Out</a></li>
+            </ul>
+            <a href="blog.html" class="text-hover">Blog</a>
+            <a href="contact.html" class="text-hover">Contact</a>
+
+        </div>
+    </div>
+    <nav class="navbar">
+        <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <img src="../IMAGE/logo.png" alt="" class="logo">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-2 menu-list">
+                    <li class="nav-item">
+                        <a class="nav-link text-hover active" aria-current="page"
+                            href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-hover" href="about_us.html" >About us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-hover" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Shop
+                        </a>
+                        <ul class="dropdown-menu list-unstyled text-black">
+                            <li><a class="dropdown-item text-hover" href="shop.html" style="color: #eb3e32;">product</a></li>
+                            <li><a class="dropdown-item text-hover" href="cart.html">Card</a></li>
+                            <li><a class="dropdown-item text-hover" href="check_out.html">Check Out</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-hover" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-hover" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <div class="position-fixed top-50 end-0 d-flex justify-content-center align-items-center"
+        style="width: 40px; height: 40px; color: white; background-color: rgb(10, 187, 10);">
+        <i class="fa-solid fa-cart-shopping fa-1x"></i>
+    </div>
+    <main>
+
+    </main>
+    <footer>
+        <div class="d-grid  gap-3 mt-3">
+            <div class="row w-100 px-5">
+                <div class="col-12 col-lg-4">
+                    <div class="d-flex flex-column gap-2 mt-3">
+                        <h4 class="text-dark">ABOUT US</h4>
+                        <span>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour, or randomised words which don't look
+                            even slightly believable.</span>   
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8 mt-3">
+                    <div class="d-grid">
+                        <div class="row ">
+                            <div class="col-6 col-sm-3">
+                                <p class="h5 text-black">CATEGORY</p>
+                                <ul class="list-unstyled m-0">
+                                    <li class="text-hover">fashion Sneakers</li>
+                                    <li class="text-hover">Jackets</li>
+                                    <li class="text-hover">Outdoor Shop</li>
+                                    <li class="text-hover">Pants</li>
+                                    <li class="text-hover">Shirt&Tops</li>
+                                    <li class="text-hover">Swim Shop</li>
+                                    <li class="text-hover">Swimwear</li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-sm-3">
+                                <p class="h5 text-black">MY ACCOUNT</p>
+                                <ul class="list-unstyled m-0">
+                                    <li class="text-hover">Orders</li>
+                                    <li class="text-hover">Compare</li>
+                                    <li class="text-hover">Wishlist</li>
+                                    <li class="text-hover">Login</li>
+                                    <li class="text-hover">Register</li>
+                                </ul>
+                            </div>
+                            <div class="col-12 mt-3 col-sm-6 mt-sm-0">
+                                <p class="h5 text-black">CONTACT INFO</p>
+                                <ul class="list-unstyled m-0">
+                                    <li class="text-hover mb-2">
+                                        <i class="fa-solid fa-location-dot fa-xl"></i>
+                                        <span>c/o Giunti International Division Via G.B. Pirelli</span>
+                                    </li>
+                                    <li class="text-hover mb-2">
+                                        <i class="fa-solid fa-phone fa-xl"></i>
+                                        <span>+025 2155 3255</span>
+                                    </li>
+                                    <li class="text-hover"><i class="fa-solid fa-envelope fa-xl"></i>
+                                        <span>info@gmail.com</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-sm-row justify-content-between bg p-4">
+                <div>Copyright&copy;2018.All Rights Reserved</div>
+                <div class="d-flex flex-row gap-2 align-items-center">
+                    <i class="fa-brands fa-facebook-f text-hover fa-lg"></i>
+                    <i class="fa-brands fa-twitter text-hover fa-lg"></i>
+                    <i class="fa-brands fa-linkedin-in text-hover fa-lg"></i>
+                    <i class="fa-brands fa-pinterest-p text-hover fa-lg"></i>
+                    <i class="fa-brands fa-google-plus-g text-hover fa-lg"></i>
+                </div>
+            </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>

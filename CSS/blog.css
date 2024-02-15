@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* header */
+.bg {
+    background-color: #363f4d;
+    color: rgb(247, 244, 244);
+    font-weight: 600;
+}
+
+.text-hover:hover {
+    transition: 0.5s color;
+    color: rgb(235, 62, 50);
+    cursor: pointer;
+}
+
+.logo {
+    width: 130px;
+    height: auto;
+}
+
+.search-buttom {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    color: white;
+    background-color: rgb(235, 62, 50);
+    border-radius: 2px;
+}
+
+.menu-buttom {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    color: rgb(235, 62, 50);
+    border: 2px solid rgb(235, 62, 50);
+    border-radius: 2px;
+}
+
+.orange-buttom {
+    background-color: rgb(235, 62, 50);
+    color: white;
+    border: none;
+    padding: 10px;
+}
+.form-control{
+    box-shadow: none !important;
+    outline: none !important;
+}
+.search-input {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    border: 1px solid gray;
+}
+
+.search-input input {
+    border-radius: 0;
+    box-shadow: none !important;
+    border-color: gray !important;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+.sticky-top {
+    position: -webkit-sticky !important;
+}
+
+/* footer */
+footer {
+    color: gray;
+}
+
+.footer-icon {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(235, 62, 50);
+    color: #eb3e32;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+/* main */
