@@ -144,6 +144,7 @@ footer {
 .title{
     text-decoration: none;
     color: black;
+
 }
 .border:hover {
     .title {
@@ -272,6 +273,7 @@ footer {
     align-items: center;  
     font-size: 15px; 
 }
+
 .num1 {
     height: 40px;
     width: 40x;

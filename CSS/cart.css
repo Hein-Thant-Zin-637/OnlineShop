@@ -146,6 +146,10 @@ cursor: pointer;
    
     cursor: pointer;
     }
+    .aa{
+        text-decoration: none;
+        color: white;
+    }
     .numinput{
         width: 60px;
         height: 30px;
@@ -163,3 +167,4 @@ table td{
         height: 300px;
     }
 }
+
