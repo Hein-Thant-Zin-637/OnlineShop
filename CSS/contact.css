@@ -128,8 +128,3 @@ li span{
     display: flex;
     align-items: center;
 }
-@media screen and (max-width: 576px) {
-    .form{
-        width: 100%;
-    }
-}
