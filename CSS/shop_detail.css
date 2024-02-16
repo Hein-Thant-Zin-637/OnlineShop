@@ -3,7 +3,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     width: 100%;
-    font-size: 20px;
 }
 
 /* header */
@@ -311,5 +310,20 @@ footer {
         max-width:90%;
         padding-left: 90px;
 
+    }
+    .add{
+    width: 120px;
+    height: 40px;
+    border-radius: 110px;
+    background-color:rgb(235, 62, 50) ;
+    color: white;
+    padding: 0;
+    padding-top: 7px;
+    font-size: 17px;
+    text-align: center  ; 
+    margin-top: 10px;
+    }
+    .add i{
+        font-size: 17px;
     }
 }
