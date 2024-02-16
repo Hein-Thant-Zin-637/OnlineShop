@@ -3,7 +3,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     width: 100%;
-    font-size: 20px;
 }
 
 /* header */
@@ -100,3 +99,67 @@ footer {
     margin-bottom: 10px;
 }
 /* main */
+.p1 ,h1{
+    color: white;
+}
+.btn1{
+    color: white; 
+    background-color: #363f4e; 
+    border-radius: 30px;
+    height: 40px; 
+    width: 250px;
+border: none;
+cursor: pointer;
+}
+    .btn2{
+        color:white; 
+    background-color:rgb(235,62,50); 
+    border-radius: 30px;
+    height: 40px; 
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    }
+    .input{
+        width: 100%;
+    }
+    .btn3{
+        color: white; 
+    background-color: #363f4e; 
+        width: 100%;
+        height: 40px;
+        border: none;
+       
+    cursor: pointer;
+    }
+     
+    /* .div2{
+        height: 500px;
+    
+    } */
+    .btn4{
+        color: white; 
+    background-color: rgb(235,62,50); 
+    width: 100%;
+    border: none;
+    height: 40px;
+   
+    cursor: pointer;
+    }
+    .numinput{
+        width: 60px;
+        height: 30px;
+        margin: 0;
+        border: none;
+        background-color: #363f4e;
+        outline: none;
+    }
+table td{
+    vertical-align: middle;
+}
+@media screen and (min-width:768px) {
+    .small-table{
+        width: 400px;
+        height: 300px;
+    }
+}
