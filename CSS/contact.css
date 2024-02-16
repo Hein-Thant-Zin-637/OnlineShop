@@ -48,6 +48,13 @@ body {
     border-radius: 2px;
 }
 
+.orange-buttom {
+    background-color: rgb(235, 62, 50);
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
 main .orange-buttom {
     background-color: rgb(235, 62, 50);
     color: white;
