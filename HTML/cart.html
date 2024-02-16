@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/f1dd83d39c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../CSS/cart.css">
 </head>
-<body>
+<body style=" min-width: 568px;">
     <header>
         <div
             class="container-fluid d-flex flex-column flex-md-row justify-content-center align-items-center justify-content-md-between px-3 px-lg-5 p-3 bg">
@@ -112,7 +112,192 @@
         <i class="fa-solid fa-cart-shopping fa-1x"></i>
     </div>
     <main>
-
+        <div class="position-relative">
+            <div> <img class="img-fluid w-100" height="300px" src="/IMAGE/cart-breadcrumbs-img.jpg" alt=""></div>
+            <div class="position-absolute top-50 start-50 translate-middle">
+                <h1>MY CART</h1>
+                <p class="p1">Home/Shop/Cart</p>
+            </div>
+        </div>
+        <div class="container mt-5 d-none d-sm-table" style="height: 360px;">
+            <table class=" table d-none d-sm-table table-bordered text-center align-items-center justify-content-center h-100" >
+                <thead class="w-100">
+                    <tr>
+                        <th class="d-none d-md-block">Item</th>
+                        <th>Product Name</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Subtotatal</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody class="w-100">
+                    <tr>
+                        <td class="d-none d-md-block ">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img src="/IMAGE/OIP (1).jfif" class="img-thumbnail d-none d-md-block" style="height:100px; width: 100px;" alt="">
+                            </div>
+                        </td>
+                        <td><b>Variable product 001</b> </td>
+                        <td class="text-danger" style="font-size: 20px;">$78.00</td>
+                        <td class="h-100">
+                            <div  class="d-flex flex-column flex-md-row gap-0 justify-content-center">
+                                <button type="button" class="numinput" style="color: white; font-size: 20px;">+</button>
+                                <input class="numinput text-center" style="background-color: white;" value="1" type="text">
+                                <button type="button" class="numinput" style="color: white; font-size: 20px;">-</button>
+                            </div>
+                        </td>
+                        <td class="text-danger" style="font-size: 20px;">$156.00</td>
+                        <td><i class="fa-regular fa-circle-xmark" style="color: #eb3e32;"></i></td>
+                    </tr>
+                    <tr>
+                        <td class="d-none d-md-block">
+                            <div class="d-flex justify-content-center align-items-center"><img src="/IMAGE/OIP (2).jfif" class="img-thumbnail d-none d-md-block"
+                                style="height:100px; width: 100px;" alt=""></div>
+                        </td>
+                        <td> <b>Variable product 002</b> </td>
+                        <td class="text-danger" style="font-size: 20px;">$81.00</td>
+                        <td class="h-100">
+                            <div  class="d-flex flex-column flex-md-row gap-0 justify-content-center">
+                            <button type="button" class="numinput" style="color: white; font-size: 20px;">+</button>
+                            <input class="numinput text-center" style="background-color: white;" value="1" type="text">
+                            <button type="button" class="numinput text-center"
+                                style="color: white; font-size: 20px;">-</button></div>
+                        </td>
+                        <td class="text-danger" style="font-size: 20px;">$81.00</td>
+                        <td><i class="fa-regular fa-circle-xmark" style="color: #eb3e32;"></i></td>
+                    </tr>
+                </tbody>
+                <tfoot class="w-100 p-3" >
+                    <th colspan="6" class="text-center p-3">
+                        <button class="btn1"> <i class="fa-solid fa-less-than"></i>CONTINUE SHOPPING</button>
+                        <button class="btn2"><i class="fa-solid fa-rotate"></i>UPDATE CART</button>
+                    </th>
+                </tfoot>
+            </table>
+        </div>
+        <div class="container">
+            <div class="mx-auto d-flex justify-content-center align-items-center w-100 ">
+                <table class="ms-5 ms-sm-0 table-center mx-auto table-bordered d-block d-sm-none w-100 mt-5">
+                    <tr>
+                        <td class="p-4">
+                            <div class="d-flex justify-content-between ">
+                                <div>Product:</div>
+                                <div>Variable Product 001</div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div>Price:</div>
+                                <div>$ 78.00</div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div>Quantity:</div>
+                                <div class="d-flex flex-column"><button type="button" class="numinput"
+                                        style="color: white; font-size: 20px;">+</button>
+                                    <input class="numinput text-center" style="background-color: white;" value="2"
+                                        type="text">
+                                    <button type="button" class="numinput text-center"
+                                        style="color: white; font-size: 20px;">-</button>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div>Subprice:</div>
+                                <div>$ 156.00</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="p-4">
+                            <div class="d-flex justify-content-between">
+                                <div>Product:</div>
+                                <div>Ornare sed consequat</div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div>Price:</div>
+                                <div>$ 81.00</div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div>Quantity:</div>
+                                <div class="d-flex flex-column"><button type="button" class="numinput"
+                                        style="color: white; font-size: 20px;">+</button>
+                                    <input class="numinput text-center" style="background-color: white;" value="1
+                            " type="text">
+                                    <button type="button" class="numinput text-center"
+                                        style="color: white; font-size: 20px;">-</button>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div>Subprice:</div>
+                                <div>$ 81.00</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tfoot>
+                        <th colspan="6" class="text-center p-3">
+                            <button class="btn1"> <i class="fa-solid fa-less-than"></i>CONTINUE SHOPPING</button>
+                            <button class="btn2"><i class="fa-solid fa-rotate"></i>UPDATE CART</button>
+                        </th>
+                    </tfoot>
+                </table>
+            </div>
+           
+            <div class="d-flex  justify-content-between mt-5 flex-column flex-md-row gap-5 ">
+                <div class="small-table">
+                    <table class="table-bordered w-100 h-100">
+                        <thead>
+                            <tr>
+                                <td>
+                                    <h4 class="p-3 text-center">PROMOTIONAL CODE</h4>
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="p-3">Enter Your Cupon Code IF you have one <br>
+                                    <input type="text" placeholder="Cupon Code" class="input mt-3">
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td class="text-center p-3"><button class="btn3">Apply Cupon Code</button></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <div class="small-table">
+                    <table class="table-bordered  w-100 h-100">
+                        <thead>
+                            <tr>
+                                <td class="p-3">
+                                    <h4 class="text-center">CART TOTAL</h4>
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="px-2 py-2">
+                                    <div class="d-flex justify-content-between">
+                                        <div> SubTotal</div>
+                                        <div>$237.00</div>
+                                </td>
+                            </tr>
+                </div>
+                <tr>
+                    <td class="px-3 py-2">
+                        <div class="d-flex justify-content-between">
+                            <div>Total</div>
+                            <div>$237.00</div>
+                    </td>
+                </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="p-3"><button class="btn4">Proceed To CheckOut</button></td>
+                    </tr>
+                </tfoot>
+                </table>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="d-grid  gap-3 mt-3">
