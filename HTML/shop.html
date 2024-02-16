@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="../CSS/shop.css">
 </head>
 <body>
-    <header>
+    <header class="w-100">
         <div
-            class="container-fluid d-flex flex-column flex-md-row justify-content-center align-items-center justify-content-md-between px-3 px-lg-5 p-3 bg">
+            class="container-fluid d-flex flex-column flex-md-row justify-content-center align-items-center justify-content-md-between px-3 px-lg-5 p-3 w-100 bg">
             <div class="d-flex flex-row gap-3">
                 <div class="text-hover side-border">
                     <i class="fa-solid fa-phone"></i>
@@ -38,12 +38,6 @@
                 <button class="orange-buttom" type="submit">Search</button>
             </div>
             <div class="d-flex flex-row p-3 gap-3">
-                <div class="position-relative d-none d-sm-block">
-                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
-                    <span
-                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">02</span>
-                </div>
-                <span class="fw-bold d-none d-sm-block">$237.00 <i class="fa-solid fa-chevron-down"></i></span>
                 <span class="search-buttom d-lg-none">
                     <i class="fa-solid fa-magnifying-glass "></i>
                 </span>
@@ -56,18 +50,24 @@
 
     </header>
     <div class="sticky-top bg-white">
-        <div class="d-flex flex-row gap-3 border-top border-bottom py-3 px-5 gap-3 menu-list d-none d-lg-flex ">
-            <a href="index.html" class="text-hover" >Home</a>
-            <a href="about_us.html" class="text-hover" >About us</a>
-            <a class="dropdown-toggle text-hover" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Shop</a>
-            <ul class="dropdown-menu list-unstyled">
-                <li><a class="dropdown-item text-hover" href="shop.html" style="color: #eb3e32;">product</a></li>
-                <li><a class="dropdown-item text-hover" href="cart.html">Card</a></li>
-                <li><a class="dropdown-item text-hover" href="check_out.html">Check Out</a></li>
-            </ul>
-            <a href="blog.html" class="text-hover">Blog</a>
-            <a href="contact.html" class="text-hover">Contact</a>
-
+        <div class="d-flex flex-row justify-content-between gap-3 border-top border-bottom py-3 px-5 gap-3 menu-list d-none d-lg-flex w-100">
+            <div class="d-flex flex-row  gap-4" style="font-size: 20px !important;">
+                <a href="index.html" class="text-hover">Home</a>
+                <a href="about_us.html" class="text-hover">About us</a>
+                <a class="text-hover" href="shop.html"  style="color: #eb3e32;"> Shop</a>
+                <a href="blog.html" class="text-hover">Blog</a>
+                <a href="contact.html" class="text-hover">Contact</a>
+            </div>
+            <div>
+                <a href="cart.html" class="d-flex flex-row column-gap-4 float-end">
+                    <span class="position-relative d-none d-sm-block">
+                        <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                        <span
+                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">02</span>
+                    </span>
+                    <span class="fw-bold d-none d-sm-block">$237.00 <i class="fa-solid fa-chevron-down"></i></span>
+                </a>
+            </div>
         </div>
     </div>
     <nav class="navbar">
@@ -77,24 +77,16 @@
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-2 menu-list">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-2 menu-list " >
                     <li class="nav-item">
                         <a class="nav-link text-hover active" aria-current="page"
                             href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-hover" href="about_us.html" >About us</a>
+                        <a class="nav-link text-hover" href="about_us.html">About us</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-hover" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Shop
-                        </a>
-                        <ul class="dropdown-menu list-unstyled text-black">
-                            <li><a class="dropdown-item text-hover" href="shop.html" style="color: #eb3e32;">product</a></li>
-                            <li><a class="dropdown-item text-hover" href="cart.html">Card</a></li>
-                            <li><a class="dropdown-item text-hover" href="check_out.html">Check Out</a></li>
-                        </ul>
+                        <a class=" text-hover" href="shop.html" role="button"  style="color: #eb3e32;">Shop</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-hover" href="blog.html">Blog</a>
@@ -102,15 +94,21 @@
                     <li class="nav-item">
                         <a class="nav-link text-hover" href="contact.html">Contact</a>
                     </li>
+                    <li>
+                        <a href="cart.html" class="d-flex flex-row column-gap-4 mt-3">
+                            <span class="position-relative">
+                                <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">02</span>
+                            </span>
+                            <span class="fw-bold ">$237.00 <i class="fa-solid fa-chevron-down"></i></span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
         </div>
     </nav>
-    <div class="position-fixed top-50 end-0 d-flex justify-content-center align-items-center"
-        style="width: 40px; height: 40px; color: white; background-color: rgb(10, 187, 10);">
-        <i class="fa-solid fa-cart-shopping fa-1x"></i>
-    </div>
     <main>
 
         <div class="position-relative">
