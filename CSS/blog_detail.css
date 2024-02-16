@@ -100,3 +100,83 @@ footer {
     margin-bottom: 10px;
 }
 /* main */
+.gray1 {
+    font-weight: 500;
+    color: rgb(116, 116, 116);
+}
+.red1 {
+    color: rgb(235,62,50);
+}
+.red1:hover {
+    color: black;
+}
+.image1 {
+    width: 100%;
+    height: auto;
+   
+}
+.gray2 {
+    color: rgb(116, 116, 116);
+}
+.gray3 {
+    color: rgb(116, 116, 116);
+    width: 110px;
+    height: 28px;
+    border-radius: 20px;
+    background-color: rgba(174, 174, 174, 0.639);
+    text-align: center;
+}
+.gray4 {
+    color: rgb(116, 116, 116);
+    width: 75px;
+    height: 28px;
+    border-radius: 30px;
+    background-color: rgba(174, 174, 174, 0.639);
+    text-align: center;
+}
+.prev{
+    text-decoration: none;
+    color: white;
+}
+.post:hover {
+    background-color: rgb(54, 54, 72);
+}
+.post {
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 12px;
+    background-color: rgb(43, 43, 58);
+}
+
+.card-body a {
+    text-decoration: none;
+    color: black;
+}
+.card-body a:hover {
+    color: rgb(235,62,50);
+}
+
+.gray5 {
+    color: rgb(116, 116, 116);
+}
+.gray5 i {
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 18px;
+}
+.gray5 i:hover {
+    color: rgb(235,62,50);
+}
+
+.post1 {
+    border-radius: 50px;
+    background-color: rgb(51, 51, 73);
+    border: none;
+    width: 170px;
+    height: 50px;
+}
+.post1:hover {
+    opacity: 0.95;
+}
