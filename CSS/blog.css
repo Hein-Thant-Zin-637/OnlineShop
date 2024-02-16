@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -268,7 +269,8 @@ footer {
     margin-left: 9px;
     padding: 0;
     display: flex;
-    align-items: center;   
+    align-items: center;  
+    font-size: 15px; 
 }
 .num1 {
     height: 40px;
