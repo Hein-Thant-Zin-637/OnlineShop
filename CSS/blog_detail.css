@@ -180,3 +180,17 @@ footer {
 .post1:hover {
     opacity: 0.95;
 }
+
+@media screen and (max-width:768px) {
+
+    .gray1 , .red1 {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .gray1 , .red1{
+        font-size: 13px;
+    }
+}
